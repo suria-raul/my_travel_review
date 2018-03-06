@@ -1,3 +1,6 @@
+/*#nav,link-image-icon,banner-banner, #main-container, text-desc 
+and .footer are linked on all pages*/
+
 #main-container {
 	overflow: hidden;
 	background-image: url("img/banner.jpg");
@@ -6,71 +9,87 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #89ce94;
+
+}
+
+.welcome-container {
 	height: 800px;
-	animation-name: mainContainer;
+}
+
+.guide-text {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+
+.banner-banner {
+	border: 2px solid white;
+	opacity: 0.5;
+	background-color: #262626;
+}
+
+.white-banner {
+	height: 800px;
+	background-color: white;
+	animation-name: whiteAnimation;
 	animation-duration: 1s;
 	animation-delay: 2s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+}
+
+.center-text {
+	color: black;
+	margin-top: 300px;
+}
+
+.center-text-below {
+	margin-top: 0px;
+	color: black;
+}
+
+.welcome {
+	text-align: center;
+	font-size: 200px;
+	margin-top: 300px;
+	animation-name: welcomeAnim;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 
 }
 
-
-.paragraph-home,
-.container-of-achievements-paragraph {
-	text-align: left;
-	border-width: 5px;
-	border-style: dashed;
-	background-color: #e3dc95;
-}
-.container-text-background {
-	background-color: #e3dcc2;;
+.blog-button {
+	margin-bottom: 200px;
 }
 
+.text-banner {
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
 
 #nav {
+	font-style: 'Amatic SC', cursive;
+	color: white;
 	margin-bottom: 0px;
 	background-color: #a6a867;
 }
 
-.travel-container,
-.achievements-container {
-	background-color: #e3dcc2;
-}
-
-.travel-text,
-.Achievements-text,
-.footer-text {
-	color: white;
-	text-shadow: 7px 7px #262626;
-	font-family: 'Shrikhand', cursive;
-}
-
 .main-text {
-	color: pink;
+	color: black; 
 	margin-top: -300px;
-	opacity: 0;
-	text-shadow: 7px 7px #262626;
-	font-family: 'Shrikhand', cursive;
+	opacity: 1;
+	font-family: 'Special Elite', cursive;
 	animation-name: textanimation;
-	animation-duration: 2s;
-	animation-delay: 1s;
+	animation-duration: 1s;
 	animation-play-state: linear;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
 }
-.main-text2 {
-	color: white;
-	font-family: 'Shrikhand', cursive;
-	text-shadow: 4px 4px #262626;
-	opacity: 0;
-	animation-name: mainText2Anim;
-	animation-duration: 1s;
-	animation-delay: 1s;
-	animation-play-state: ease;
-	animation-fill-mode: forwards;
-}
+
 .text-style {
 	color: white;
 	font-family: 'Playball', cursive;
@@ -78,113 +97,246 @@
 	text-shadow: 2px 2px #262626;
 	opacity: 0;
 	animation-name: textanimationStylefive;
-	animation-duration: 1s;
+	animation-duration: 3s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards;
 }
 
-img {
-	margin-top: 20px;
+.booking {
+	height: 98px;
+	width: 100px;
+	border-radius: 40px;
+}
+
+.side-ads {
+	color: white;
+}
+.img-img {
+	margin-top: 30px;
 	height: 250px;
 	box-sizing: border-box;
 	opacity: 1;
+}
+.text-desc {
+	font-family: 'Caveat', cursive;
+	text-indent: 100px;
+	margin-top: 100px;
+	font-size: 23px;
+	opacity: 1;
+}
+
+.container-animation-1 {
+	margin-top: 500px;
+	animation-name: container1;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.container-animation-2 {
+	margin-top: 500px;
+	animation-name: container2;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.container-animation-3 {
+	margin-top: 500px;
+	animation-name: container3;
+	animation-duration: 1s;
+	animation-delay: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.container-animation-4 {
+	margin-top: 500px;
+	animation-name: container4;
+	animation-duration: 1s;
+	animation-delay: 4s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.container-animation-5 {
+	margin-top: 500px;
+	animation-name: container5;
+	animation-duration: 1s;
+	animation-delay: 5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.container-animation-6 {
+	margin-top: 500px;
+	animation-name: container6;
+	animation-duration: 1s;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.container-animation-7 {
+	margin-top: 500px;
+	animation-name: container7;
+	animation-duration: 1s;
+	animation-delay: 7s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.itinerary-banner {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.itinerary-text {
+	text-align: center;
+	color: white;
 }
 
 .footer {
 	background-color: #a6a867;
 }
-
-/*about page css*/
-
-.main-container-about {
-	width: 100%;
-	height: 750px;
-	background: radial-gradient(red, orange, yellow);
-	position: fixed;
-}
-.paragraph-container,
-.container-of-achievements-paragraph {
-	opacity: 0.7;
-	height: 400px;
-	width: 70%;
-/*	background-color: #a9aca9;*/
-	margin-top: 200px;
-	margin-left: 200px;
-	border-radius: 3px;
-	border-style: dashed;
-}
-.special-text,
-.Achievements-paragraph-1 {
-	color: red;
-	text-indent: 150px;
-	font-size: 20px;
-	font-family: 'Bitter', serif;
-	animation-name: specialTextAnimation;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-
+.footer-text {
+	margin-top: 5px;
+	color: black;
+	font-family: 'Mina', sans-serif;
 }
 
-/*contact page css*/
+.link-image-icon {
+	height: 25px;
+	width: 25px;
+}
 
-.button {
+.about-paragraph {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.about-text {
+	color: black;
+}
+
+.img-creator {
+	width: 100px;
 	height: 100px;
+	margin-right: 500px;
+	border-radius: 50px;
+	margin-bottom: 50px;
+	opacity: 1;
+}
+.img-slide-size {
 	width: 100%;
-	background-color: green;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 50px;
-    font-size: 16px;
-    cursor: pointer;
 }
 
-
-
-/*gallery page css*/
-
-.gallery {
-	overflow: hidden;
-	height: 750px;
-	background-color: #eaeaea;
+.contact-container {
+	height: 771px;
 }
 
-.img-style-gallery {
-	margin-top: 0px;	
-	box-shadow: 10px 10px 10px;
-	animation-name: imgGallery;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
+.widget-size {
+	height: 100px;
+	margin-bottom: 100px;
+}
+
+.creator-div {
+	height: 250px;
+	margin-bottom: 50px;
+	background-color: orange;
+}
+
+.contact-text {
+	color: black;
+	margin-bottom: 20px;
 }
 
 /*animations*/
 
-@keyframes mainContainer {
+@keyframes  welcomeAnim {
+	from {
+		margin-top: 300px;
+		font-size: 200px;
+	}
+	to {
+		margin-top: 0px;
+		font-size: 50px;
+	}
+}
+
+@keyframes whiteAnimation {
 	from {
 		height: 800px;
 	}
 	to {
+
 		height: 0px;
 	}
-}	
+}
 
-@keyframes imgGallery {
+
+@keyframes container1 {
 	from {
+		margin-top: 500px;
+	}
+	to {
 		margin-top: 0px;
 	}
+}
+
+@keyframes container2 {
+	from {
+		margin-top: 500px;
+	}
 	to {
-		margin-top: -100px;
+		margin-top: 0px;
 	}
 }
-@keyframes mainText2Anim {
+
+@keyframes container3 {
 	from {
-		opacity: 0;
+		margin-top: 500px;
 	}
 	to {
-		opacity: 1;
+		margin-top: 0px;
+	}
+}
+
+@keyframes container4 {
+	from {
+		margin-top: 500px;
+	}
+	to {
+		margin-top: 0px;
+	}
+}
+
+@keyframes container5 {
+	from {
+		margin-top: 500px;
+	}
+	to {
+		margin-top: 0px;
+	}
+}
+
+@keyframes container6 {
+	from {
+		margin-top: 500px;
+	}
+	to {
+		margin-top: 0px;
+	}
+}
+
+@keyframes container7 {
+	from {
+		margin-top: 500px;
+	}
+	to {
+		margin-top: 0px;
 	}
 }
 
@@ -201,42 +353,18 @@ img {
 				}
 }
 
-
 @keyframes textanimation {
-	0% {
-		-webkit-margin-top: 0px;
-		-moz-margin-top: 0px;
-		-o-margin-top: 0px;
-		margin-top: 0px;
-		opacity: 0;
+	from {
+		-webkit-margin-top: 900px;
+		-moz-margin-top: 900px;
+		-o-margin-top: 900px;
+		margin-top: 900px;
 	}
-	50% {
-		-webkit-margin-top: 300px;
-		-moz-margin-top: 300px;
-		-o-margin-top: 300px;
-		margin-top: 300px;
+	to {
+		-webkit-margin-top: 40px;
+		-moz-margin-top: 40px;
+		-o-margin-top: 40px;
+		margin-top: 40px;
 		opacity: 1;
-	}
-	100% {
-		-webkit-margin-top: 0px;
-		-moz-margin-top: 0px;
-		-o-margin-top: 0px;
-		margin-top: 0px;
-		opacity: 1;
-	}
-}
-
-@keyframes specialTextAnimation {
-	0% {
-		color: red;
-	}
-	25% {
-		color: blue;
-	}
-	50% {
-		color: green;
-	}
-	100% {
-		color: black;
 	}
 }

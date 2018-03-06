@@ -16,39 +16,72 @@
 	<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
 
-
 </head>
 
 <body>
-	<nav class="navbar navbar-inverse row" id="nav">
-		<ul class="nav navbar-nav navbar-right text-style">
-		     <li><a href="homeIndex.html" class=".text-style-5"> HOME </a></li>
-		     <li><a href="about.html" class=".text-style-5"> ABOUT </a></li>
-		     <li><a href="contact.html" class=".text-style-5"> CONTACT </a></li>
-		     <li><a href="gallery.html" class=".text-style-5"> GALLERY </a></li>
-		     <li><a href="aboutme.html" class=".text-style-5"> ABOUT ME </a></li>
-		   </ul>
-	</nav>
+	<nav class="navbar navbar-inverse" id="nav">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav text-style">
+	        <li><a href="homeIndex.html" class="text-style-5">Home</a></li>
+	        <li><a href="about.html" class="text-style-5">About</a></li>
+	        <li><a href="blog.html" class="text-style-5">Blog</a></li>
+	        <li><a href="contact.html" class="text-style-5">Contact</a></li>
+	        <li><a href="gallery.html" class="text-style-5">Gallery</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav> 
 
-<div class="main-container-about">
-	<div class="paragraph-container">
-		<p class="special-text">
-			This page was made using CSS animation and bootstrap for our first capstone in tuitt coding bootcamp. I made this website to have a review of my 2017. All the photos/picture in this website are all owned by me. This website will serve as my very first website and a remembrance of all the day that I am with tuitt coding bootcamp, learning about programming. I am a beginner and I hope this will inspire you. If you have any question, comment, and suggestions you can contact me through the contact page of this website. I hope you like my page. Thanks and have good day !
+	<div class="container-fluid row" id="main-container">
+		<div class="banner-banner about-paragraph col-lg-offset-1 col-lg-10 col-md-12 col-sm-12">
+			<p class="text-banner text-desc">This is the compilation of our travels on 2017. I made this website to show how beautiful the phillippines and also to share my experience	on travelling.		
+			</p>
+			<p class="text-banner text-desc">
+				Why travel ? <br>
+				Your mind and body will fluctuate on your everyday living and travelling is the best way of removing your stress, find peace of mind and unwind.
+			</p>
+		</div>
 
-		</p>
-	</div>
-</div> <!-- end of main container -->
+		<div class="container-fluid">
+			<img src="img/creator.jpg" class="img-creator col-lg-1 col-lg-offset-6">
+			<p class="text-desc"> Hi I am Raul I'm a traveller, me and my girlfriend loves travelling together to explore and discover new things. We started travelling last year. We start going to one place then it goes on and on.</p>
+		</div>
+
+	</div> <!-- end of main-container -->
+
+<!-- 		<div class="creator-div">
+			<img src="img/creator.jpg" class="img-creator col-lg-1 col-lg-offset-6">
+			<p class="text-desc"> Hi I am Raul I'm a traveller, me and my girlfriend loves travelling together to explore and discover new things. We started travelling last year. We start going to one place then it goes on and on.</p>
+		</div> -->
 
 
 	<div class="container-fluid row footer">
-		<p class="col-lg-7 col-lg-offset-5 col-md-7 col-md-offset-5 col-sm-7 col-sm-offset-5 footer-text"> Copyright &copy; Raul Suria Jr | Tuitt Coding bootcamp</p>
+		<p class="footer-text col-lg-4 col-md-4 col-sm-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4"> 
+		Copyright &copy; Raul Suria Jr | Tuitt Coding bootcamp</p> 
+		<a href="https://www.facebook.com/raul.suria.37" target="_blank">
+			<img src="img/Yootheme-Social-Bookmark-Social-facebook-button-blue.ico" class="link-image-icon"></a>
+		<a href="https://twitter.com/Stadnitzki_nero" target="_blank">
+			<img src="img/twitter-icon-9.png" class="link-image-icon"></a>
+		<a href="https://www.instagram.com/" target="_blank">
+			<img src="img/Instagram_icon.png" class="link-image-icon"></a>
+		<a href="https://plus.google.com/u/0/114214467774313052593" target="_blank">
+			<img src="img/Google_plus_icon.png" class="link-image-icon"></a>
+		<a href="https://gitlab.com/tuitt/students/b4nc/raul-suria" target="_blank">
+			<img src="img/gitlab.png" class="link-image-icon"></a>
+		<a href="https://github.com/" target="_blank">
+			<img src="img/github-256-black.png" class="link-image-icon"></a>
 	</div>
-
-
 
 <!-- jQuery bootstrap plugins -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 
 <!-- include all compiled plugins -->
 <script src="js/bootstrap.min.js"></script>
