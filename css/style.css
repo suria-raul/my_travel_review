@@ -13,7 +13,7 @@ and .footer are linked on all pages*/
 }
 
 .welcome-container {
-	height: 800px;
+	height: 770px;
 }
 
 .guide-text {
@@ -30,7 +30,7 @@ and .footer are linked on all pages*/
 
 .white-banner {
 	height: 800px;
-	background-color: white;
+	background-color: #a6a867;
 	animation-name: whiteAnimation;
 	animation-duration: 1s;
 	animation-delay: 2s;
@@ -40,6 +40,7 @@ and .footer are linked on all pages*/
 
 .center-text {
 	color: black;
+	font-family: 'Caveat', cursive;
 	margin-top: 300px;
 }
 
@@ -49,8 +50,10 @@ and .footer are linked on all pages*/
 }
 
 .welcome {
+	color: white;
 	text-align: center;
-	font-size: 200px;
+	font-size: 1000%;
+	font-family: 'Lobster', cursive;
 	margin-top: 300px;
 	animation-name: welcomeAnim;
 	animation-duration: 1s;
@@ -97,7 +100,7 @@ and .footer are linked on all pages*/
 	text-shadow: 2px 2px #262626;
 	opacity: 0;
 	animation-name: textanimationStylefive;
-	animation-duration: 3s;
+	animation-duration: 1s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards;
@@ -217,10 +220,6 @@ and .footer are linked on all pages*/
 	margin-bottom: 100px;
 }
 
-.about-text {
-	color: black;
-}
-
 .img-creator {
 	width: 100px;
 	height: 100px;
@@ -234,12 +233,24 @@ and .footer are linked on all pages*/
 }
 
 .contact-container {
-	height: 771px;
+	min-height: 960px;
+	box-sizing: border-box;
 }
 
 .widget-size {
 	height: 100px;
 	margin-bottom: 100px;
+}
+
+.widget-container-size {
+	margin-top: 100px;
+	height: 100px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+.widget-container-size:hover {
+	background-color: #a6a867;
 }
 
 .creator-div {
@@ -253,16 +264,25 @@ and .footer are linked on all pages*/
 	margin-bottom: 20px;
 }
 
+.gal-img-size {
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
 /*animations*/
 
 @keyframes  welcomeAnim {
 	from {
+		color: white;
 		margin-top: 300px;
-		font-size: 200px;
+		font-size: 1000%;
 	}
 	to {
+		color: black;
 		margin-top: 0px;
-		font-size: 50px;
+		font-size: 500%;
 	}
 }
 
