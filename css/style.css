@@ -221,16 +221,15 @@ and .footer are linked on all pages*/
 }
 
 .img-creator {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	margin-right: 500px;
-	border-radius: 50px;
-	margin-bottom: 50px;
+	border-radius: 100px;
 	opacity: 1;
 }
-.img-slide-size {
+/*.img-slide-size {
 	width: 100%;
-}
+}*/
 
 .contact-container {
 	min-height: 960px;
@@ -241,17 +240,17 @@ and .footer are linked on all pages*/
 	height: 100px;
 	margin-bottom: 100px;
 }
-
+/*
 .widget-container-size {
 	margin-top: 100px;
-	height: 100px;
-	width: 200px;
+	height: 50px;
+	width: 50px;
 	border-radius: 5px;
 }
 
 .widget-container-size:hover {
 	background-color: #a6a867;
-}
+}*/
 
 .creator-div {
 	height: 250px;
@@ -281,7 +280,7 @@ and .footer are linked on all pages*/
 	}
 	to {
 		color: black;
-		margin-top: 0px;
+		margin-top: 100px;
 		font-size: 500%;
 	}
 }
