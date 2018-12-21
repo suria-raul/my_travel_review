@@ -428,6 +428,10 @@ article:last-child
 	background-size: 125% auto;
 }
 
+article, #banner {
+	font-family: 'Charm', cursive;
+}
+
 #banner .button
 {
 	color: #000000;
